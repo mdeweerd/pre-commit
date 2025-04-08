@@ -1,6 +1,7 @@
 - id: uncrustify
   name: uncrustify
   description: Run uncrustify on all files
-  entry: uncrustify_hook.py
+  entry: python uncrustify_hook.py
   language: python
-  files: \.(c|h|cpp|hpp|cc|hh|cxx|hxx)$
+  types: [c, c++, c#, java]  # D, PAWN, OC, OC+, VALA.
+  #files: \.(c|h|cpp|hpp|cc|hh|cxx|hxx)$

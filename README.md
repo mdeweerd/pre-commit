@@ -41,7 +41,7 @@ You can customize the Uncrustify configuration by modifying the `uncrustify.cfg`
 If you want to use the `--max-passes` option, you can specify it in your `.pre-commit-config.yaml` file:
 
 ```yaml
-- repo: https://github.com/mdeweerd/pre-commit-uncrustify-hook
+- repo: https://github.com/mdeweerd/pre-commit
   rev: v1.0.0  # Replace with the latest version
   hooks:
     - id: uncrustify
@@ -56,7 +56,7 @@ If you want to use the `--max-passes` option, you can specify it in your `.pre-c
 You can specify other Uncrustify options in your `.pre-commit-config.yaml` file. For example:
 
 ```yaml
-- repo: https://github.com/mdeweerd/pre-commit-uncrustify-hook
+- repo: https://github.com/mdeweerd/pre-commit
   rev: v1.0.0  # Replace with the latest version
   hooks:
     - id: uncrustify
